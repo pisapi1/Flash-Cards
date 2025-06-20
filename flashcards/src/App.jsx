@@ -15,7 +15,7 @@ const App = () => {
   {term: "Isotonic Solution", definition: "The same concentration of dissolved substances. Water in = water out."}
   ];
 
-  let [pageCounter, setPage] = useState(1);
+  let [pageCounter, setPage] = useState(0);
   console.log(`Flashcard length: ${flashcard_deck.length}`);
   const increasePageCount = () => {
     if (pageCounter < flashcard_deck.length - 1) {
