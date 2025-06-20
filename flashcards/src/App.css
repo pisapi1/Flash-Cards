@@ -46,6 +46,12 @@
   color: black;
   margin: 1em;
   padding: 5em;
-  text-align: center;;
+  text-align: center;
+}
+
+#button-layout {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: solid;
 }
 
